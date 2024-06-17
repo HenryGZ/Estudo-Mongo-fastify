@@ -1,0 +1,56 @@
+{"level":30,"time":"2024-06-17T15:57:49.989Z","pid":3384,"hostname":"Henry","reqId":"req-1","req":{"method":"POST","url":"/api/companies","headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.39.0","accept":"*/*","cache-control":"no-cache","postman-token":"f1d3c8a2-f071-43d7-b325-350a30545980","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"29"},"parameters":{}},"msg":"incoming request"}
+{"level":30,"time":"2024-06-17T15:57:50.443Z","pid":3384,"hostname":"Henry","reqId":"req-1","res":{"statusCode":201},"responseTime":453.430300001055,"msg":"request completed"}
+{"level":30,"time":"2024-06-17T16:03:02.758Z","pid":5280,"hostname":"Henry","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":"2024-06-17T16:03:02.758Z","pid":5280,"hostname":"Henry","msg":"Servidor rodando na porta 3000"}
+{"level":30,"time":"2024-06-17T16:03:03.009Z","pid":5280,"hostname":"Henry","msg":"Conectado ao MongoDB"}
+{"level":30,"time":"2024-06-17T16:04:22.766Z","pid":10400,"hostname":"Henry","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":"2024-06-17T16:04:22.767Z","pid":10400,"hostname":"Henry","msg":"Servidor rodando na porta 3000"}
+{"level":30,"time":"2024-06-17T16:04:23.138Z","pid":10400,"hostname":"Henry","msg":"Conectado ao MongoDB"}
+{"level":30,"time":"2024-06-17T16:05:17.246Z","pid":2296,"hostname":"Henry","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":"2024-06-17T16:05:17.246Z","pid":2296,"hostname":"Henry","msg":"Servidor rodando na porta 3000"}
+{"level":30,"time":"2024-06-17T16:05:17.445Z","pid":2296,"hostname":"Henry","msg":"Conectado ao MongoDB"}
+{"level":30,"time":"2024-06-17T16:10:11.562Z","pid":7200,"hostname":"Henry","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":"2024-06-17T16:10:11.562Z","pid":7200,"hostname":"Henry","msg":"Servidor rodando na porta 3000"}
+{"level":30,"time":"2024-06-17T16:10:11.863Z","pid":7200,"hostname":"Henry","msg":"Conectado ao MongoDB"}
+{"level":30,"time":"2024-06-17T16:12:32.989Z","pid":8148,"hostname":"Henry","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":"2024-06-17T16:12:32.989Z","pid":8148,"hostname":"Henry","msg":"Servidor rodando na porta 3000"}
+{"level":30,"time":"2024-06-17T16:12:33.238Z","pid":8148,"hostname":"Henry","msg":"Conectado ao MongoDB"}
+{"level":30,"time":"2024-06-17T16:12:54.822Z","pid":8148,"hostname":"Henry","reqId":"req-1","req":{"method":"POST","url":"/api/messages","headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.39.0","accept":"*/*","cache-control":"no-cache","postman-token":"bd019c02-fc05-4769-b6c9-1b3b03f2ecd1","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"76"},"parameters":{}},"msg":"incoming request"}
+{"level":30,"time":"2024-06-17T16:12:55.252Z","pid":8148,"hostname":"Henry","reqId":"req-1","res":{"statusCode":201},"responseTime":430.0654000006616,"msg":"request completed"}
+{"level":30,"time":"2024-06-17T16:32:43.854Z","pid":9096,"hostname":"Henry","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":"2024-06-17T16:32:43.854Z","pid":9096,"hostname":"Henry","msg":"Servidor rodando na porta 3000"}
+{"level":30,"time":"2024-06-17T16:32:44.079Z","pid":9096,"hostname":"Henry","msg":"Conectado ao MongoDB"}
+{"level":30,"time":"2024-06-17T16:32:52.393Z","pid":9096,"hostname":"Henry","reqId":"req-1","req":{"method":"POST","url":"/api/messages","headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.39.0","accept":"*/*","cache-control":"no-cache","postman-token":"445de5f9-64ce-4030-982c-98a56bb045e5","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"98"},"parameters":{}},"msg":"incoming request"}
+{"level":30,"time":"2024-06-17T16:32:52.815Z","pid":9096,"hostname":"Henry","reqId":"req-1","res":{"statusCode":201},"responseTime":421.7069999985397,"msg":"request completed"}
+{"level":30,"time":"2024-06-17T16:34:40.231Z","pid":9296,"hostname":"Henry","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":"2024-06-17T16:34:40.232Z","pid":9296,"hostname":"Henry","msg":"Servidor rodando na porta 3000"}
+{"level":30,"time":"2024-06-17T16:34:40.459Z","pid":9296,"hostname":"Henry","msg":"Conectado ao MongoDB"}
+{"level":30,"time":"2024-06-17T16:36:34.650Z","pid":6556,"hostname":"Henry","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":"2024-06-17T16:36:34.651Z","pid":6556,"hostname":"Henry","msg":"Servidor rodando na porta 3000"}
+{"level":30,"time":"2024-06-17T16:36:34.868Z","pid":6556,"hostname":"Henry","msg":"Conectado ao MongoDB"}
+{"level":30,"time":"2024-06-17T16:36:45.410Z","pid":10412,"hostname":"Henry","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":"2024-06-17T16:36:45.411Z","pid":10412,"hostname":"Henry","msg":"Servidor rodando na porta 3000"}
+{"level":30,"time":"2024-06-17T16:36:45.614Z","pid":10412,"hostname":"Henry","msg":"Conectado ao MongoDB"}
+{"level":30,"time":"2024-06-17T16:37:24.609Z","pid":5424,"hostname":"Henry","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":"2024-06-17T16:37:24.609Z","pid":5424,"hostname":"Henry","msg":"Servidor rodando na porta 3000"}
+{"level":30,"time":"2024-06-17T16:37:24.940Z","pid":5424,"hostname":"Henry","msg":"Conectado ao MongoDB"}
+{"level":30,"time":"2024-06-17T16:37:43.938Z","pid":9508,"hostname":"Henry","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":"2024-06-17T16:37:43.939Z","pid":9508,"hostname":"Henry","msg":"Servidor rodando na porta 3000"}
+{"level":30,"time":"2024-06-17T16:37:44.151Z","pid":9508,"hostname":"Henry","msg":"Conectado ao MongoDB"}
+{"level":30,"time":"2024-06-17T16:38:28.864Z","pid":7504,"hostname":"Henry","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":"2024-06-17T16:38:28.864Z","pid":7504,"hostname":"Henry","msg":"Servidor rodando na porta 3000"}
+{"level":30,"time":"2024-06-17T16:38:29.073Z","pid":7504,"hostname":"Henry","msg":"Conectado ao MongoDB"}
+{"level":30,"time":"2024-06-17T16:39:32.321Z","pid":7504,"hostname":"Henry","reqId":"req-1","req":{"method":"POST","url":"/api/companies","headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.39.0","accept":"*/*","cache-control":"no-cache","postman-token":"07627971-0221-4aa5-9b81-5615778eb0ad","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"29"},"parameters":{}},"msg":"incoming request"}
+{"level":30,"time":"2024-06-17T16:39:32.824Z","pid":7504,"hostname":"Henry","reqId":"req-1","res":{"statusCode":201},"responseTime":502.4635999985039,"msg":"request completed"}
+{"level":30,"time":"2024-06-17T16:41:09.779Z","pid":6772,"hostname":"Henry","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":"2024-06-17T16:41:09.780Z","pid":6772,"hostname":"Henry","msg":"Servidor rodando na porta 3000"}
+{"level":30,"time":"2024-06-17T16:41:10.021Z","pid":6772,"hostname":"Henry","msg":"Conectado ao MongoDB"}
+{"level":30,"time":"2024-06-17T16:41:13.183Z","pid":6772,"hostname":"Henry","reqId":"req-1","req":{"method":"POST","url":"/api/companies","headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.39.0","accept":"*/*","cache-control":"no-cache","postman-token":"593b2acc-5582-44f6-949f-75498b1bc5d6","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"29"},"parameters":{}},"msg":"incoming request"}
+{"level":30,"time":"2024-06-17T16:41:13.626Z","pid":6772,"hostname":"Henry","reqId":"req-1","res":{"statusCode":201},"responseTime":442.5109999999404,"msg":"request completed"}
+{"level":30,"time":"2024-06-17T16:45:19.581Z","pid":16900,"hostname":"Henry","msg":"Server listening at http://0.0.0.0:3000"}
+{"level":30,"time":"2024-06-17T16:45:19.581Z","pid":16900,"hostname":"Henry","msg":"Servidor rodando na porta 3000"}
+{"level":30,"time":"2024-06-17T16:45:19.608Z","pid":16900,"hostname":"Henry","msg":"Conectado ao MongoDB"}
+{"level":30,"time":"2024-06-17T16:45:57.311Z","pid":16900,"hostname":"Henry","reqId":"req-1","req":{"method":"POST","url":"/api/companies","headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.39.0","accept":"*/*","cache-control":"no-cache","postman-token":"3c56cab0-1b07-4488-9f53-5c8af6317d1b","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"28"},"parameters":{}},"msg":"incoming request"}
+{"level":30,"time":"2024-06-17T16:45:57.443Z","pid":16900,"hostname":"Henry","reqId":"req-1","res":{"statusCode":201},"responseTime":131.02899999916553,"msg":"request completed"}
+{"level":30,"time":"2024-06-17T16:46:06.597Z","pid":16900,"hostname":"Henry","reqId":"req-2","req":{"method":"POST","url":"/api/companies","headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.39.0","accept":"*/*","cache-control":"no-cache","postman-token":"bb7ff44f-439b-4e1c-8058-dde8abcaec72","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"31"},"parameters":{}},"msg":"incoming request"}
+{"level":30,"time":"2024-06-17T16:46:06.683Z","pid":16900,"hostname":"Henry","reqId":"req-2","res":{"statusCode":201},"responseTime":85.86459999904037,"msg":"request completed"}
