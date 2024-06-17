@@ -1,0 +1,25 @@
+name: mongodb
+services:
+  mongodb:
+    image: mongo:latest
+    restart: always
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongodb-data:/data/db
+    networks:
+      - proseia-network
+    deploy:
+      resources:
+        limits:
+          cpus: '0.20'
+          memory: 50M
+volumes:
+  db-data:
+    driver: local
+  redis-data:
+    driver: local
+  mongodb-data:
+    driver: local
+networks:
+  proseia-network:
