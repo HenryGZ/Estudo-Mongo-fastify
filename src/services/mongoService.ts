@@ -28,8 +28,8 @@ export const getDatabaseConnection = async (dbName: string) => {
     if (!dbExists) {
       // Criar um novo banco de dados e coleções
       const newDb = client.db(formattedDbName);
-      await newDb.createCollection('activityLogs');
-      await newDb.createCollection('messages');
+      //await newDb.createCollection('activityLogs');
+      //await newDb.createCollection('messages');
     }
 
     return client.db(formattedDbName);
