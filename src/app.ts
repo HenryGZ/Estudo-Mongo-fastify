@@ -1,7 +1,7 @@
 import Fastify from 'fastify';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import userRoutes from './routes/userRoutes';
+import companyRoutes from './routes/companyRoutes';
 
 dotenv.config();
 
@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGO_URI || '')
   });
 
 // Registrar rotas
-fastify.register(userRoutes, { prefix: '/api' });
+fastify.register(companyRoutes, { prefix: '/api' });
 
 // Inicializar servidor
 const start = async () => {

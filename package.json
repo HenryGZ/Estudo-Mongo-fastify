@@ -13,6 +13,7 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "fastify": "^4.28.0",
+    "mongodb": "^6.7.0",
     "mongoose": "^8.4.1"
   },
   "devDependencies": {
