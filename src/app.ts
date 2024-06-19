@@ -1,13 +1,17 @@
 import Fastify from 'fastify';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import userRoutes from './routes/userRoutes';
+import filesRoutes from './routes/filesRoutes';
+import fastifyMultipart from 'fastify-multipart';
 
 dotenv.config();
 
 const fastify = Fastify({
   logger: true
 });
+
+// Registrar o plugin fastify-multipart
+fastify.register(fastifyMultipart);
 
 // Conectar ao MongoDB
 mongoose.connect(process.env.MONGO_URI || '')
@@ -19,7 +23,7 @@ mongoose.connect(process.env.MONGO_URI || '')
   });
 
 // Registrar rotas
-fastify.register(userRoutes, { prefix: '/api' });
+fastify.register(filesRoutes, { prefix: '/api' });
 
 // Inicializar servidor
 const start = async () => {
