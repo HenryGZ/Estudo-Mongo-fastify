@@ -7,6 +7,11 @@ declare module 'fastify' {
   }
 }
 
+interface UploadRequestBody {
+  fileName: string;
+  companyId: string;
+}
+
 // Rota para upload de arquivo
 export const uploadFile = async (request: FastifyRequest, reply: FastifyReply) => {
   try {
@@ -22,8 +27,6 @@ export const uploadFile = async (request: FastifyRequest, reply: FastifyReply) =
         companyId = part.fields.companyId.value;
       }
     }
-    
-    
 
     if (!fileContent || !fileName || !companyId) {
       return reply.status(400).send({ error: 'File content or filename missing' });
@@ -37,10 +40,12 @@ export const uploadFile = async (request: FastifyRequest, reply: FastifyReply) =
 };
 
 // Rota para download de arquivo
-export const downloadFile = async (request: FastifyRequest, reply: FastifyReply) => {
+export const downloadFile = async (request: FastifyRequest<{ Body: UploadRequestBody }>, reply: FastifyReply) => {
   try {
-    const { fileName } = request.body as { fileName: string };
-    const companyId = request.headers.companyid as string;
+    
+    const { fileName, companyId } = request.body;
+    console.log(fileName)
+    console.log(companyId)
 
     const data = await downloadFileFromS3(fileName, companyId);
     reply.status(200).send(data);
@@ -50,10 +55,15 @@ export const downloadFile = async (request: FastifyRequest, reply: FastifyReply)
 };
 
 // Rota para deletar arquivo
-export const deleteFile = async (request: FastifyRequest, reply: FastifyReply) => {
+export const deleteFile = async (request: FastifyRequest<{ Body: UploadRequestBody }>, reply: FastifyReply) => {
   try {
-    const { fileName } = request.body as { fileName: string };
-    const companyId = request.headers.companyid as string;
+    const { fileName, companyId } = request.body;
+    console.log(fileName)
+    console.log(companyId)
+
+    if (!fileName || !companyId) {
+      return reply.status(400).send({ error: 'File content or filename missing' });
+    }
 
     await deleteFileFromS3(fileName, companyId);
     reply.status(200).send({ message: 'File deleted successfully' });
